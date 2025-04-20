@@ -1,5 +1,6 @@
+import './Header.scss';
 
-function Header({ appName }) {
+function Header(props) {
 
     return (
       <>
@@ -7,7 +8,7 @@ function Header({ appName }) {
             <div className="container">
                 <div className="header-side">
                     <h1>
-                        {appName}
+                        {props.appName}
                     </h1>
                 </div>
                 <div className="header-side">
