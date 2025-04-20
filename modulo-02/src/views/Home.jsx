@@ -1,4 +1,5 @@
 import Filter from '../components/Filter.jsx';
+import FooterFilter from '../components/FooterFilter.jsx';
 import TodosList from '../components/TodosList.jsx';
 
 function Home() {
@@ -9,6 +10,8 @@ function Home() {
             <Filter />
         
             <TodosList />
+
+            <FooterFilter />
         </div>
     </>
     )
